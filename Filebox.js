@@ -8,9 +8,9 @@
 > 特別說明：本腳本僅供學習交流使用，禁止轉載售賣
  
 [rewrite_local]
-# ～ filebox解鎖會員權限（2022-02-18）@ddgksf2013
-^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-echo-response https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/filebox.js
-^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$ url script-echo-response https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/filebox.js
+# ～ filebox解鎖會員權限（2022-02-18）
+^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-echo-response https://raw.githubusercontent.com/LyAim/gn/main/Filebox.js
+^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$ url script-echo-response https://raw.githubusercontent.com/LyAim/gn/main/Filebox.js
 [mitm] 
 hostname=api.revenuecat.com
 ***********************************/
